@@ -33,7 +33,10 @@ THE SOFTWARE.
 
 #include <iostream>
 
+#ifndef AMGCL_NO_BOOST
 #include <boost/property_tree/ptree.hpp>
+#endif
+
 #include <memory>
 
 #include <mpi.h>
